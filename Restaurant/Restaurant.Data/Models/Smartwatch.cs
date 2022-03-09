@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Restaurant.Data.Models
 {
-    public class Waiter
+    public class Smartwatch
     {
-        public int WaiterId { get; set; }
-        public string Name { get; set; }
+        public int WatchId { get; set; }
+        public string Brandname { get; set; }    
+        public int Serialnumber { get; set; }
         public int RestaurantId { get; set; }
         public virtual RestaurantDetails RestaurantDetail { get; set; }
 

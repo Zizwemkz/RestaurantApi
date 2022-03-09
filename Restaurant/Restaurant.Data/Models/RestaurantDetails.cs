@@ -10,6 +10,8 @@ namespace Restaurant.Data.Models
     {
         public int RestaurantId { get; set; }
         public string Name { get; set; }
+        public string address { get; set; }
+        public string phonenumber { get; set; }
         public virtual ICollection<Waiter> Waiter { get; set; }
 
     }
